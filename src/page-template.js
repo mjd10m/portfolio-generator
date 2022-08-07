@@ -53,7 +53,7 @@ const generateProjects = projectsArr => {
   `;
 }
 
-generatePage = (templateData) => {
+const generatePage = (templateData) => {
     console.log(templateData);
     const {projects, about, ...header} = templateData;
   
